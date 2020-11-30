@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+}
+p{
+    font-size: 12px;
+}
+.para{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subConatinerTitle
+{
+    float: right;
+    margin-top: 0px;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+#chickenTitle{
+    background-color: palevioletred;
+
+}
+#beefTitle{
+    background-color: #b82b2b;
+}
+#susiTitle{
+    background-color: #eccb27;
+}
+#ourMenu{
+    align-items: center;
+    text-align: center;
+}
+#overallContainer{
+/* padding: 4px; */
+height: auto;
+    width: 100%;
+    display: block;
+    /* display: grid; */
+    /* background-color: rgb(255, 0, 0); */
+    /* grid-template-columns: 33% 33% 33%; */
+    
+}
+.subContainer{
+    margin: .1%;
+    /* padding: 5px; */
+    float: left;
+    /* margin: .3%; */
+    grid-column: auto;
+    width: 33%;
+    /* height: 40px; */
+    background-color: gray;
+}
+@media (max-width: 1023px){
+    /* for tablet  */
+    
+    .subContainer{
+        /* background-color: green; */
+        width: 49%;
+    }
+    #susi{
+        width: 98%;
+    }
+}
+@media (max-width: 767px){
+    /* for tablet  */
+    
+    .subContainer{
+        /* background-color: green; */
+        width: 98%;
+    }
+   
+}
